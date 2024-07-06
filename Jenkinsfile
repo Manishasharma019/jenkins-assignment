@@ -10,13 +10,13 @@ pipeline {
         stage('Build') {
             steps {
                 // Build steps (e.g., compile, build, etc.)
-                sh 'echo "Building project..."'
+                sh 'echo "Building project"'
             }
         }
         stage('Test') {
             steps {
                 // Test steps (e.g., unit tests)
-                sh 'echo "Running tests..."'
+                sh 'echo "Running tests"'
             }
         }
         stage('Deploy') {
